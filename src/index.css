@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+/* custome color and styles */
+
+:root {
+    --coffee-yellow: #f4c542;
+    --coffee-brown: #3e2723;
+
+}
+
+/* custome utility class */
+
+.text-coffeeYellow{
+    color:var(--coffee-yellow);
+
+}
+.bg-coffeeYellow {
+  background-color:var(--coffee-yellow);
+}
+.text-coffeeBrown {
+    color:var(--coffee-brown);
+
+}
+.bg-coffeeBwron {
+    background-color: var(--coffee-brown);
+
+}
+
+.hover\:text-coffeeBrown:hover {
+    color:var(--coffee-brown);
+
+}
+.hover\:bg-coffeeBrown:hover  {
+  background-color:var(--coffee-brown);
+}
+
+
+/* Font styles  */
+
+.logo-font {
+    font-family: 'Pacifico' , cursive;
+}
