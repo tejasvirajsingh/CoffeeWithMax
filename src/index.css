@@ -21,7 +21,7 @@
     color:var(--coffee-brown);
 
 }
-.bg-coffeeBwron {
+.bg-coffeeBrown {
     background-color: var(--coffee-brown);
 
 }
@@ -39,4 +39,37 @@
 
 .logo-font {
     font-family: 'Pacifico' , cursive;
+}
+
+@keyframes slideIn {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+     transform: translateX(0%);
+    }
+}
+.animate-slideIn{
+    animation: slideIn 0.3s ease-out forwards;
+
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+html ,body {
+    margin: 0;
+    padding: 0;
+    overflow-X: hidden;
+    width: 100%;
+
+
+}
+body{
+    font-family: 'Helvetica Neue' , Arial,  sans-serif;
+    background-color: #ffffff;
+    color : #333333;
+    line-height: 1.6;
 }
