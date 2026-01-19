@@ -1,7 +1,7 @@
 // 
 import React, { useState } from 'react'
 import { FaRegHeart , FaApple , FaAndroid} from 'react-icons/fa'
-import {FiChevronDown, FiHelpCircle, FiMenu, FiSearch} from 'react-icons/fi'
+import {FiChevronDown, FiHelpCircle, FiMenu, FiSearch, FiX} from 'react-icons/fi'
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
 
                          {/* (Mobile view support for..) */}
 
-        <div className='flex items-center justify-between w-full m:hidden'>
+        <div className='flex items-center justify-between w-full md:hidden'>
        {/* left side humbrag */}
         <div className='flex items-center gap-2'>
           <button onClick={ () => setIsMobileMenuOpen(!isMobileMenuOpen)} className='text-2xl text-gray-900'>
@@ -35,7 +35,8 @@ const Navbar = () => {
         {/* Now we create navbar funtctions and items.. */}
      <div className='hidden md:flex items-center gap-8 text-base font-bold  text-gray-900'>
         <a href="#" className='hover:text-coffeeBrown transition'>FAQ</a>
-        <a href="#" className='hover:text-coffeeBrown transition'>Wall of <FaRegHeart className='text-coffeeBrown'> </FaRegHeart> </a>
+        <a href="#" className=' flex items-center gap-1 hover:text-coffeeBrown transition  '>Wall of<FaRegHeart className='text-coffeeBrown w-4 h-4'> </FaRegHeart> </a>
+     
      <div className='relative z-50'>
 
         <div className='flex items-center gap-1 cursor-pointer hover:text-coffeeBrown transition '
@@ -50,19 +51,19 @@ const Navbar = () => {
    
    <div className='absolute top-10 left-0 w-52 bg-white shadow-xl rounded-xl p-4  space-y-4 border border-gray-100 z-50'>
 
-    <a href="#" className='flex items-center gap-2 text-sm hover:text-coffeBrown'>
+    <a href="#" className='flex items-center gap-2 text-sm hover:text-coffeeBrown'>
         <FiHelpCircle  className='text-lg'/>
 
         <span>Help Center</span>
         </a>
 
-    <a href="#" className='flex items-center gap-2 text-sm hover:text-coffeBrown'>
+    <a href="#" className='flex items-center gap-2 text-sm hover:text-coffeeBrown'>
         <FaApple  className='text-lg'/>
 
         <span>IOs Apple</span>
         </a>
 
-    <a href="#" className='flex items-center gap-2 text-sm hover:text-coffeBrown'>
+    <a href="#" className='flex items-center gap-2 text-sm hover:text-coffeeBrown'>
         <FaAndroid  className='text-lg'/>
 
         <span>Android App</span>
@@ -108,7 +109,7 @@ const Navbar = () => {
 
       {isMobileMenuOpen && (
 
-        <div className='fixed top-0 left-0 w-full bg-white z-50 flex flex-col gap-6 p-6 pt-20 text-gray-900  text-lg font-semibold animate-siledIn overflow-y-auto  '>
+        <div className='fixed top-0 left-0 w-full bg-white z-50 flex flex-col gap-6 p-6 pt-20 text-gray-900  text-lg font-semibold animate-sildeIn overflow-y-auto  '>
 
           <a href='#' className='hover:text-coffeeBrown'>FaQ</a>
           <a href='#' className='hover:text-coffeeBrown flex items-center gap-2'>Wall of <FaRegHeart className='text-coffeeBrown'></FaRegHeart></a>
