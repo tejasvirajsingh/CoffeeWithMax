@@ -4,7 +4,8 @@ It focuses on reusable components, clean folder structure, and proper React Rout
 
 ---
 # 🚀 Project Overview
-![Ek Cup Coffee](assets/preview.png)
+![Ek Cup Coffee](src/assets/preview.png)
+
 
 ---
 
