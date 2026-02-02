@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="text-[#444] bg-[#fdfaf5] pt-10 pb-16 border-t border-gray-200 text-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col gap-8">
 
-        {/* ================= ROW 1 ================= */}
+        
         {/* Social icons (left) + Navigation links (right) */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
 
@@ -34,7 +34,7 @@ const Footer = () => {
 
         </div>
 
-        {/* ================= ROW 2 ================= */}
+       
         {/* Centered copyright + made by */}
         <div className="text-center text-sm font-semibold flex flex-col  justify-center items-center gap-2">
           <span>

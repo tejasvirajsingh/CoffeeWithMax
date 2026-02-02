@@ -1,18 +1,15 @@
 # ☕ Coffee With Max
-
-A modern **React + Vite** web application built to practice and demonstrate real-world React concepts such as component-based architecture, routing, and state management.
-
----
-
-## 🚀 Project Overview
-
 **Coffee With Max** is a frontend React project created as a learning and portfolio project.  
 It focuses on reusable components, clean folder structure, and proper React Router usage.
 
 ---
+# 🚀 Project Overview
+![Ek Cup Coffee](assets/preview.png)
+
+---
 
 ## 🛠️ Tech Stack
-
+A modern **React + Vite** web application built to practice and demonstrate real-world React concepts such as component-based architecture, routing, and state management.
 - React JS
 - Vite
 - React Router DOM
