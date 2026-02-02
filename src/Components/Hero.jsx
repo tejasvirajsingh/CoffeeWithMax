@@ -20,12 +20,12 @@ const testimonials = [
     avatar: "https://i.pravatar.cc/100?img=11",
   },
   {
-    name: "Swati Die Heart fan of Your Coffee",
+    name: "Swati die Heart fan of Your Coffee",
     supporters: "8822",
     avatar: "https://i.pravatar.cc/100?img=29",
   },
   {
-    name: "Yash is Couple Love of Your Coffee",
+    name: "Yash  Love's  of Your Coffee",
     supporters: "3522",
     avatar: "https://i.pravatar.cc/100?img=14",
   },
@@ -49,7 +49,7 @@ export default function Hero() {
           </Tilt>
          
         </div>
-        <div className="absolute top-70 left-10 w-60 rotate-[-2deg] z-20">
+        <div className="absolute top-70 left-10 w-60 -rotate-2 z-20">
           <Tilt glareEnable={false}>
  <Card {...testimonials[1]} />
           </Tilt>
@@ -70,7 +70,7 @@ export default function Hero() {
           </Tilt>
          
         </div>
-        <div className="absolute top-70 right-10 w-60 rotate-[2deg] z-20">
+        <div className="absolute top-70 right-10 w-60 rotate-2 z-20">
           <Tilt glareEnable={false}>
  <Card {...testimonials[4]} />
           </Tilt>
