@@ -25,8 +25,8 @@ const CallToAction = () => {
 
       <a
         href="/signup"
-        className="inline-block bg-coffeeBrown text-white font-bold text-lg sm:text-xl px-10 sm:px-12 py-4 sm:py-5 
-      rounded-full border-2 border-[#BB591C] shadow-[7px_5px_56px_-20px_#BB591C] transition-transform hover:scale-105 duration-300"
+        className="inline-block bg-coffeeBrown text-white font-bold text-xl sm:text-xl px-5 sm:px-4 py-2 sm:py-2
+      rounded-full border-2 border-[#BB591C] shadow-[7px_5px_56px_-20px_#BB591C] transition-transform hover:scale-105 duration-200"
       >
         Create Your Page
       </a>

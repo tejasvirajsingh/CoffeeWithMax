@@ -1,47 +1,47 @@
-import { FaGithub, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="text-[#444] bg-[#fdfaf5] pt-10 pb-16 border-t border-gray-200 text-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col gap-6 sm:gap-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col gap-8">
 
-        {/* TOP SECTION */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+        {/* ================= ROW 1 ================= */}
+        {/* Social icons (left) + Navigation links (right) */}
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
 
-          {/* LEFT SIDE → Social media icons */}
+          {/* LEFT → Social media icons */}
           <div className="flex gap-5">
-            <a href="#" aria-label="Twitter" className="hover:opacity-70 transition-opacity">
-              <FaXTwitter className="text-xl" />
+            <a href="https://www.linkedin.com/in/tejasvirajsingh/" aria-label="Linkedin" className="hover:scale-125 transition-transform duration-200">
+              <FaLinkedin className="text-xl" />
             </a>
 
-            <a href="#" aria-label="Instagram" className="hover:opacity-70 transition-opacity">
+            <a href="https://www.instagram.com/tejasvi_max/?hl=en" aria-label="Instagram" className="hover:scale-125 transition-transform duration-200">
               <FaInstagram className="text-xl" />
             </a>
 
-            <a href="#" aria-label="GitHub" className="hover:opacity-70 transition-opacity">
+            <a href="https://github.com/tejasvirajsingh" aria-label="GitHub" className="hover:scale-125 transition-transform duration-200">
               <FaGithub className="text-xl" />
             </a>
           </div>
 
-          {/* RIGHT SIDE → Navigation links */}
-          <div className="gap-5 font-bold sm:text-left flex flex-wrap text-sm text-center justify-center">
-            <a href="#" className="hover:opacity-70 transition-opacity">About</a>
-            <a href="#" className="hover:opacity-70 transition-opacity">Help Center</a>
-            <a href="#" className="hover:opacity-70 transition-opacity">Terms</a>
-            <a href="#" className="hover:opacity-70 transition-opacity">Privacy</a>
+          {/* RIGHT → Navigation links */}
+          <div className="flex gap-5 font-bold underline text-sm flex-wrap justify-center">
+            <a href="#" className="inline-block hover:scale-110 transition-transform duration-200">About</a>
+            <a href="#" className="inline-block hover:scale-110 transition-transform duration-200">Help Center</a>
+            <a href="#" className="inline-block hover:scale-110 transition-transform duration-200">Privacy</a>
+            <a href="#" className="inline-block hover:scale-110 transition-transform duration-200">Terms</a>
           </div>
 
         </div>
 
-        {/* COPYRIGHT (kept separate as before) */}
-        <div className="text-sm text-center font-semibold  sm:text-left">
-          &copy; {new Date().getFullYear()} Ek Cup Coffee With Max
-
-          <pre>    Made by Tejasvi ❤️</pre>
+        {/* ================= ROW 2 ================= */}
+        {/* Centered copyright + made by */}
+        <div className="text-center text-sm font-semibold flex flex-col  justify-center items-center gap-2">
+          <span>
+            &copy; {new Date().getFullYear()} Ek Cup Coffee With Max
+          </span>
+          <pre>• Made by Tejasvi ❤️</pre>
         </div>
-
-        
 
       </div>
     </footer>

@@ -67,7 +67,7 @@ const HowItWorks = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  className="absolute bottom-[-1px] right-3 w-7 h-7 opacity-25 group-hover:opacity-50 pointer-events-none z-0"
+                  className="absolute -bottom-px right-3 w-7 h-7 opacity-25 group-hover:opacity-50 pointer-events-none z-0"
                 />
 
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 sm:w-16 sm:h-16 bg-[#3e2723] rounded-full flex items-center justify-center shadow-lg z-10">
