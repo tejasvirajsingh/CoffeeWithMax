@@ -18,7 +18,7 @@ const CallToAction = () => {
 
       <p className="max-w-2xl mx-auto text-gray-600 text-xs px-8 sm:text-lg mb-8 ">
         Join thousand of creator using Ek cup Coffee with max to grow their
-        Audiance , and get connect to Community.
+        Audiance ,network  and get connect to Community.
       </p>
 
       {/* creating button  */}
