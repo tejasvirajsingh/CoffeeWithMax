@@ -38,7 +38,7 @@ const Footer = () => {
         {/* Centered copyright + made by */}
         <div className="text-center text-sm font-semibold flex flex-col  justify-center items-center gap-2">
           <span>
-            &copy; {new Date().getFullYear()} Ek Cup Coffee With Max
+            &copy; {new Date().getFullYear()} Ek Cup Coffee With Max....
           </span>
           <pre>• Made by Tejasvi ❤️</pre>
         </div>
